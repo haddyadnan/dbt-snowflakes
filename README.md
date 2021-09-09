@@ -1,2 +1,2 @@
-# dbt-snowflakes
-dbt with snowflakes repo
+# dbt project
+A dbt project with snowflakes
