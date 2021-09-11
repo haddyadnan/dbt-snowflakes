@@ -5,9 +5,14 @@ sources:
     database: raw
     tables:
       - name: customers
+        columns:
+          - name: id
+            tests:
+              - unique
+              - not_null
       - name: orders
-
-  - name: stripe
-    database: raw
-    tables:
-      - name: payment
+        columns:
+          - name: id
+            tests:
+              - unique
+              - not_null
