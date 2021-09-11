@@ -19,6 +19,7 @@ models:
                 values: ['returned', 'completed', 'shipped', 'placed','return_pending']
 
       - name: customer_id
+        description: customerid of customers from stg_customers
         tests:
           - relationships:
               to: ref('stg_customers')
