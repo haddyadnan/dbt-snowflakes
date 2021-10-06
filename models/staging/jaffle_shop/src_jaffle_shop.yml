@@ -13,8 +13,8 @@ sources:
       - name: orders
         loaded_at_field: _etl_loaded_at
         freshness:
-          warn_after: {count: 14, period: day}
-          error_after: {count: 90, period: hour}
+          warn_after: {count: 365, period: day}
+          error_after: {count: 500, period: day}
         columns:
           - name: id
             tests:
